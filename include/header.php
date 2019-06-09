@@ -1,17 +1,14 @@
 <?php
 
-$current_url = $_SERVER['REQUEST_URI'];
-$is_admin_path = $current_url === '/student-grade/admin.php';
 $links = array(
     'register' => array(
         'name' => 'Registration',
-        'href' => './admin.php',
-        'active' =>  $is_admin_path ? 'active' : ''
+        'href' => './admin.php'
+        
     ),
     'grade' => array(
         'name' => 'Grade',
-        'href' => './',
-        'active' => !$is_admin_path ? 'active' : ''
+        'href' => './'
     )
 
     
@@ -57,11 +54,11 @@ $links = array(
                 <ul class="navbar-nav">
                     
                     <li class="nav-item">
-                    <a class="nav-link <?php echo $links['grade']['active'] ?>" href="<?php echo $links['grade']['href'] ?>"><?php echo $links['grade']['name'] ?></a>
+                    <a class="nav-link" href="<?php echo $links['grade']['href'] ?>"><?php echo $links['grade']['name'] ?></a>
                     </li>
                     
                     <li class="nav-item">
-                        <a class="nav-link <?php echo $links['register']['active'] ?>" href="<?php echo $links['register']['href'] ?>"><?php echo $links['register']['name'] ?></a>
+                        <a class="nav-link" href="<?php echo $links['register']['href'] ?>"><?php echo $links['register']['name'] ?></a>
                     </li>
                 </ul>
 

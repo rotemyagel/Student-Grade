@@ -1,6 +1,6 @@
 <?php
 
-    $title="Student Registration";
+    $title="Students Registration";
     $body_class = "registration";
 
 ?>

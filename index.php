@@ -1,6 +1,6 @@
     <?php
 
-    $title="Student Grade";
+    $title="Students Grade";
     $body_class = "grade";
 
     $assets = array(

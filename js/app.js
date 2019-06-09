@@ -55,4 +55,12 @@
        }
     }
 
+
+    const url = window.location.href;
+  $('.navbar-nav .nav-item .nav-link').each(function() {
+   if (this.href === url) {
+   $(this).addClass('active');
+  }
+ });
+
 })(jQuery);
