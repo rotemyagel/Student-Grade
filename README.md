@@ -1,4 +1,4 @@
-# Students Registration Manual
+# Students Grade Manual
 
 ## Student Grade
 
