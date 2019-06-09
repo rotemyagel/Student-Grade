@@ -1,2 +1,1 @@
-# Student-Grade
-Demo Student table grade
+# Students Registration Manual

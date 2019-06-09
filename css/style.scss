@@ -1,0 +1,109 @@
+//
+//  MEDIA QUERIES
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+
+// A map of breakpoints.
+$breakpoints: (xs: 576px,
+  sm: 768px,
+  md: 992px,
+  lg: 1200px);
+
+
+//
+//  RESPOND ABOVE
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+
+// @include respond-above(sm) {}
+@mixin respond-above($breakpoint) {
+
+  // If the breakpoint exists in the map.
+  @if map-has-key($breakpoints, $breakpoint) {
+
+    // Get the breakpoint value.
+    $breakpoint-value: map-get($breakpoints, $breakpoint);
+
+    // Write the media query.
+    @media (min-width: $breakpoint-value) {
+      @content;
+    }
+
+    // If the breakpoint doesn't exist in the map.
+  }
+
+  @else {
+
+    // Log a warning.
+    @warn 'Invalid breakpoint: #{$breakpoint}.';
+  }
+}
+
+
+
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+}
+
+.alert {
+  border: none;
+  border-radius: 0;
+}
+
+input {
+  &.form-control {
+    border-radius: 0;
+  }
+}
+
+
+
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+button {
+  &.btn {
+    border-radius: 0;
+  }
+}
+
+
+
+.hero {
+  background-image: url('../img/students.jpg');
+  background-position: 50% 25%;
+  background-size: cover;
+  position: relative;
+  min-height: 45vh;
+
+  &:before {
+    content: '';
+    position: absolute;
+    background-image: linear-gradient(to right bottom, #74b9ff, #61c8ff, #5cd6fc, #69e2f5, #81ecec);
+    opacity: .8;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+
+  h1 {
+    &.title {
+      font-size: 3rem;
+      font-weight: 300;
+
+      @include respond-above(sm) {
+        font-size: 6rem;
+      }
+    }
+  }
+}
