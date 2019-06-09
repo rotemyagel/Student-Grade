@@ -47,8 +47,6 @@
             }
         ]
     },
-    
-    
     {
         "fullName": "rotem yagel",
         "id": "1223412",
@@ -206,6 +204,16 @@
     {
         "fullName": "rotem yagel",
         "id": "1231",
+        "subjects": [
+            {
+                "exam": "math",
+                "grade": "90"
+            }
+        ]
+    },
+    {
+        "fullName": "rotem yagel",
+        "id": "124564564",
         "subjects": [
             {
                 "exam": "math",
