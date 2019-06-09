@@ -12,21 +12,6 @@
         type: "GET",
         url: './ajax.php?list-students=true',
         success: function (response) {
-            console.log(response);
-            // var test = [
-            //     {
-            //         id: 531718,
-            //         exam: 'Investment Form',
-            //         fullName: 'Test User',
-            //         grade: '9876543210'
-            //     },
-            //     {
-            //         id: 531790,
-            //         exam: 'Investment Form 2',
-            //         fullName: 'Test2 User',
-            //         grade: '9876543210'
-            //     },
-            // ]
             tableData = response.data;
         },
         error: function (error) {

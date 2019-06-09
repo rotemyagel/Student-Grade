@@ -33,9 +33,11 @@
             url: './ajax.php',
             data: $(e.target).serialize(),
             success: function (data) {
-                console.log(data);
+                // console.log(data);
                 message(data)
-                
+            },
+            error: function (error) {
+            console.log(error);
             }
         });
     });

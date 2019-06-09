@@ -2,12 +2,12 @@
 
 $links = array(
     'register' => array(
-        'name' => 'Registration',
+        'name' => 'Student Registration',
         'href' => './admin.php'
         
     ),
     'grade' => array(
-        'name' => 'Grade',
+        'name' => 'Students Grade',
         'href' => './'
     )
 
