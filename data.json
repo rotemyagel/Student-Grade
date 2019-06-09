@@ -47,26 +47,8 @@
             }
         ]
     },
-    {
-        "fullName": "rotem yagel",
-        "id": "1",
-        "subjects": [
-            {
-                "exam": "math",
-                "grade": "9999"
-            }
-        ]
-    },
-    {
-        "fullName": "yaron miro",
-        "id": "1234589",
-        "subjects": [
-            {
-                "exam": "math",
-                "grade": "87"
-            }
-        ]
-    },
+    
+    
     {
         "fullName": "rotem yagel",
         "id": "1223412",

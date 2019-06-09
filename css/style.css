@@ -17,6 +17,18 @@ input.form-control {
   border-radius: 0;
 }
 
+.navbar-nav .nav-item .nav-link {
+  color: #ccc;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: #74b9ff;
+}
+
+.navbar-nav .nav-item .nav-link.active {
+  color: #74b9ff;
+}
+
 input[type=number]::-webkit-inner-spin-button,
 input[type=number]::-webkit-outer-spin-button {
   -webkit-appearance: none;

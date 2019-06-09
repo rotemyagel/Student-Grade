@@ -1,7 +1,7 @@
 <?php
 
 $current_url = $_SERVER['REQUEST_URI'];
-$is_admin_path = $current_url === '/student-registration/admin.php';
+$is_admin_path = $current_url === '/student-grade/admin.php';
 $links = array(
     'register' => array(
         'name' => 'Registration',

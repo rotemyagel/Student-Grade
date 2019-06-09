@@ -61,6 +61,20 @@ input {
   }
 }
 
+.navbar-nav{
+  .nav-item{
+    .nav-link{
+      color: #ccc;
+      &:hover{
+        color: #74b9ff;
+      }
+      &.active{
+        color: #74b9ff;
+      }
+    }
+  }
+}
+
 
 
 
