@@ -56,10 +56,11 @@ $links = array(
                 <!-- Links -->
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link <?php echo $links['register']['active'] ?>" href="<?php echo $links['register']['href'] ?>"><?php echo $links['register']['name'] ?></a>
-                    </li>
-                    <li class="nav-item">
                     <a class="nav-link <?php echo $links['grade']['active'] ?>" href="<?php echo $links['grade']['href'] ?>"><?php echo $links['grade']['name'] ?></a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link <?php echo $links['register']['active'] ?>" href="<?php echo $links['register']['href'] ?>"><?php echo $links['register']['name'] ?></a>
                     </li>
                 </ul>
 
