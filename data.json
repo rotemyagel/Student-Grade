@@ -38,59 +38,23 @@
         ]
     },
     {
-        "fullName": "albert",
-        "id": "1234",
-        "subjects": [
-            {
-                "exam": "english",
-                "grade": "90"
-            }
-        ]
-    },
-    {
-        "fullName": "rotem yagel",
-        "id": "1223412",
-        "subjects": [
-            {
-                "exam": "math",
-                "grade": "90"
-            }
-        ]
-    },
-    {
-        "fullName": "<script> alert('Hacked!!') <\/script>",
-        "id": "123434534534",
-        "subjects": [
-            {
-                "exam": "math",
-                "grade": "90"
-            }
-        ]
-    },
-    {
-        "fullName": "<script> alert('Hacked!!') <\/script>",
-        "id": "1234345345345464578",
-        "subjects": [
-            {
-                "exam": "math",
-                "grade": "90"
-            }
-        ]
-    },
-    {
-        "fullName": "rotem yagel",
-        "id": "123455",
-        "subjects": [
-            {
-                "exam": "english",
-                "grade": "95"
-            }
-        ]
-    },
-    {
         "fullName": "rotem yagel",
         "id": "124564564",
         "subjects": [
+            {
+                "exam": "math",
+                "grade": "90"
+            }
+        ]
+    },
+    {
+        "fullName": "rotem yagel",
+        "id": "1235",
+        "subjects": [
+            {
+                "exam": "english",
+                "grade": "80"
+            },
             {
                 "exam": "math",
                 "grade": "90"
